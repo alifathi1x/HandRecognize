@@ -19,8 +19,6 @@ def increase_brightness(img, value=30):
     img_bright = cv2.cvtColor(final_hsv, cv2.COLOR_HSV2BGR)
     return img_bright
 
-
-# بارگذاری تصویر مورد نظر
 image = cv2.imread(r'C:\Users\Ali\PycharmProjects\MachineLearning\1.jpg')
 
 # شروع پردازش ویدیو از وبکم
